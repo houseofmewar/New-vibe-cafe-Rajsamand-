@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Vibes Cafe & Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">New Vibes Cafe & Restaurant</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to New Vibes</h1>
+            <p>Experience fresh vibes with our delicious coffee, meals, and cozy atmosphere.</p>
+            <img src="https://via.placeholder.com/800x400?text=Cafe+Interior" alt="Cafe Interior" /> <!-- Replace with your Google Drive image URL -->
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Coffee" alt="Coffee" />
+                <h3>Specialty Coffee</h3>
+                <p>$4.50</p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Burger" alt="Burger" />
+                <h3>Gourmet Burger</h3>
+                <p>$12.00</p>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Salad" alt="Salad" />
+                <h3>Fresh Salad</h3>
+                <p>$8.00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>New Vibes Cafe & Restaurant is your go-to spot for a relaxing meal or quick coffee. Inspired by modern vibes, we serve fresh, locally sourced ingredients in a welcoming space.</p>
+        <img src="https://via.placeholder.com/600x300?text=Team+Photo" alt="Team" /> <!-- Replace with your Google Drive image -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: 123 Cafe Street, City, State 12345</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@newvibescafe.com</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 New Vibes Cafe & Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
