@@ -164,9 +164,3 @@ document.querySelectorAll('nav a').forEach(anchor => {
         });
     });
 });
-
-// Basic form submission alert (replace with real backend)
-document.querySelector('form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Thank you for your message!');
-});
